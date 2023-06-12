@@ -5,7 +5,7 @@ from art import logo
 # Include an ASCII art logo.
 # Allow the player to submit a guess for a number between 1 and 100.
 print(logo)
-guessed_num = random.randint(1, 101)
+guessed_num = random.randint(1, 100)
 print(f"correct answer is {guessed_num}")
 print("I am thinking of a number between 1 and 100")
 difficulty = ""
